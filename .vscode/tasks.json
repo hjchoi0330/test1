@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "C/C++: clang++ build active file",
-            "command": "/home/hojinchoi/dev/tibero8/extbin/clang++",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
             "args": [
                 "-g",
                 "${file}",
